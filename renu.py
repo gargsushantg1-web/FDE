@@ -1,3 +1,8 @@
-a=4
-b=5
-a+b=9
+cat > renu.py <<'EOF'
+a = 4
+b = 5
+print(a + b)
+
+a = 15
+print(type(a))
+EOF
